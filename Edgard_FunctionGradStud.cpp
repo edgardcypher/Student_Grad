@@ -7,7 +7,7 @@
 #include<fstream>
 #include<iomanip>
 #include"Edgard_GradStudHeadFile.h"
-
+//i am update this files
 /*This function takes in parameter an array of structure and displays its content*/
 void display(StoreStud tab[], int &size) {
     cout << "Student's name         Id's Student       Average          Grade" << endl;
@@ -68,7 +68,7 @@ void getDataFromFile(fstream &file, StoreStud &student, string c, vector<StoreSt
             }
             cout << "the date from file have been stored in structures\n";
             file.close();
-            system("PAUSE");
+            system("PAUSES");
 
         }
     } else {
