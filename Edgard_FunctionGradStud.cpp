@@ -1,4 +1,4 @@
-/*this file contains the definition of our function for 
+/*this file contains the definition of our function for
  grade project*/
 #include <cstdlib>
 #include <iostream>
@@ -7,7 +7,7 @@
 #include<fstream>
 #include<iomanip>
 #include"Edgard_GradStudHeadFile.h"
-
+// this is what i have actually in my local
 /*This function takes in parameter an array of structure and displays its content*/
 void display(StoreStud tab[], int &size) {
     cout << "Student's name         Id's Student       Average          Grade" << endl;
@@ -66,7 +66,7 @@ void getDataFromFile(fstream &file, StoreStud &student, string c, vector<StoreSt
                 st.push_back(student); // we store each student in the vector
                 i++;
             }
-            cout << "the date from file have been stored in structures\n";
+            cout << "the date or time from file have been stored in structures\n";
             file.close();
             system("PAUSE");
 
