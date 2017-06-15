@@ -7,7 +7,7 @@
 #include<fstream>
 #include<iomanip>
 #include"Edgard_GradStudHeadFile.h"
-// this is what i have actually in my local
+// ok i make a final change
 /*This function takes in parameter an array of structure and displays its content*/
 void display(StoreStud tab[], int &size) {
     cout << "Student's name         Id's Student       Average          Grade" << endl;
@@ -68,7 +68,7 @@ void getDataFromFile(fstream &file, StoreStud &student, string c, vector<StoreSt
             }
             cout << "the date or time from file have been stored in structures\n";
             file.close();
-            system("PAUSE");
+            system("PAUSES");
 
         }
     } else {
