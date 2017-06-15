@@ -7,7 +7,7 @@
 #include<fstream>
 #include<iomanip>
 #include"Edgard_GradStudHeadFile.h"
-// je suis tetu
+// je suis une tetue personne
 /*This function takes in parameter an array of structure and displays its content*/
 void display(StoreStud tab[], int &size) {
     cout << "Student's name         Id's Student       Average          Grade" << endl;
